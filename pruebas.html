@@ -1,0 +1,37 @@
+<div class="card m-2 text-center col-sm" style="width: 18rem">
+    ${e.icon}
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Calcular area
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <form id="form-area-cuadrado" class="list-group">
+                    <input placeholder="${e.placeholderArea}" required id="lado-area" class="text-center" type="number">
+                    <li class="list-group-item">Area:<span id="area-cuadrado"></span></li>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="submit">CALCULAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Calcular Perimetro
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <form id="form-perimetro-cuadrado" class="list-group">
+                    <input required placeholder="${e.placeholderPerimetro}" type="number" id="lado-perimetro" class="text-center" >
+                    <li class="list-group-item">Perimetro:<span id="perimetro-cuadrado"></span></li>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="submit">CALCULAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
