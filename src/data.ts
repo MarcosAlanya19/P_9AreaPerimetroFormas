@@ -20,7 +20,7 @@ export const forms: areaPerimetro[] = [
     {
         // Info basica
         icon:'<i class="fa-solid fa-square-minus form"></i>',
-        title:'CUBO',
+        title:'CUADRADO',
         placeholderArea:'Ingresa Lado',
         placeholderPerimetro:'Ingresa lado',
         // Identificador
@@ -37,7 +37,7 @@ export const forms: areaPerimetro[] = [
     {
         // Info basica
         icon:'<i class="fa-solid fa-circle-xmark form"></i>',
-        title:'ESFERA',
+        title:'CIRCULO',
         placeholderArea:'Ingresa radio',
         placeholderPerimetro:'Ingresa radio',
         // Identificador

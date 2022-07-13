@@ -16,7 +16,7 @@ const createFormsHtml=()=>{
     <div class="card-body">
         <h5 class="card-title">${e.title}</h5>
     </div>
-    <div class="accordion" id="accordionExample">
+    <div class="accordion mb-4" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${e.idArea}" aria-expanded="true" aria-controls="${e.idArea}">
@@ -25,7 +25,7 @@ const createFormsHtml=()=>{
             </h2>
             <div id="${e.idArea}" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <form id="${e.idFormArea}" class="list-group">
-                    <input placeholder="${e.placeholderArea}" required id="${e.idInputArea}" class="text-center" type="number">
+                    <input placeholder="${e.placeholderArea}" required id="${e.idInputArea}" class="text-center border" type="number">
                     <li class="list-group-item">Area:<span id="${e.resultPrintArea}"></span></li>
                     <div class="d-grid gap-2">
                         <button class="btn btn-primary" type="submit">CALCULAR</button>
@@ -41,7 +41,7 @@ const createFormsHtml=()=>{
             </h2>
             <div id="${e.idPerimetro}" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <form id="${e.idFormPerimetro}" class="list-group">
-                    <input required placeholder="${e.placeholderPerimetro}" type="number" id="${e.idInputPerimetro}" class="text-center" >
+                    <input required placeholder="${e.placeholderPerimetro}" type="number" id="${e.idInputPerimetro}" class="text-center border" >
                     <li class="list-group-item">Perimetro:<span id="${e.resultPrintPerimetro}"></span></li>
                     <div class="d-grid gap-2">
                         <button class="btn btn-primary" type="submit">CALCULAR</button>
@@ -121,7 +121,7 @@ const createForms2Html=()=>{
     <div class="card-body">
         <h5 class="card-title">${e.title}</h5>
     </div>
-    <div class="accordion" id="accordionExample">
+    <div class="accordion mb-4" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${e.idArea}" aria-expanded="true" aria-controls="${e.idArea}">
@@ -131,8 +131,8 @@ const createForms2Html=()=>{
             <div id="${e.idArea}" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <form id="${e.idFormArea}" class="list-group">
                     <div class="row">
-                        <input placeholder="${e.placeholderArea}" required id="${e.idInputArea}" class="text-center col marginInput" type="number">
-                        <input placeholder="${e.placeholderArea2}" required id="${e.idInputArea2}" class="text-center col marginInput" type="number">
+                        <input placeholder="${e.placeholderArea}" required id="${e.idInputArea}" class="text-center col marginInput border" type="number">
+                        <input placeholder="${e.placeholderArea2}" required id="${e.idInputArea2}" class="text-center col marginInput border" type="number">
                     </div>
                     <li class="list-group-item">Area:<span id="${e.resultPrintArea}"></span></li>
                     <div class="d-grid gap-2">
@@ -150,8 +150,8 @@ const createForms2Html=()=>{
             <div id="${e.idPerimetro}" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <form id="${e.idFormPerimetro}" class="list-group">
                 <div class="row">
-                    <input placeholder="${e.placeholderPerimetro}" required id="${e.idInputPerimetro}" class="text-center col marginInput" type="number">
-                    <input placeholder="${e.placeholderPerimetro2}" required id="${e.idInputPerimetro2}" class="text-center col marginInput" type="number">
+                    <input placeholder="${e.placeholderPerimetro}" required id="${e.idInputPerimetro}" class="text-center col marginInput border" type="number">
+                    <input placeholder="${e.placeholderPerimetro2}" required id="${e.idInputPerimetro2}" class="text-center col marginInput border" type="number">
                 </div>
                     <li class="list-group-item">Perimetro:<span id="${e.resultPrintPerimetro}"></span></li>
                     <div class="d-grid gap-2">

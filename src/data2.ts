@@ -24,7 +24,7 @@ export const forms2: areaPerimetro[] = [
     {
         // Info basica
         icon:'<i class="fa-solid fa-triangle-exclamation form"></i>',
-        title:'PIRAMIDE',
+        title:'TRIANGULO',
         placeholderArea:'Base',
         placeholderArea2:'Altura',
         placeholderPerimetro:'Base',
@@ -45,7 +45,7 @@ export const forms2: areaPerimetro[] = [
     {
         // Info basica
         icon:'<i class="fa-solid fa-rectangle-xmark form"></i>',
-        title:'PARALELEPIPEDO',
+        title:'RECTANGULO',
         placeholderArea:'Largo',
         placeholderArea2:'Ancho',
         placeholderPerimetro:'Largo',

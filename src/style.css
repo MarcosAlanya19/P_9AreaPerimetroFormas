@@ -2,12 +2,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .form{
   font-size: 150px;
   margin-top: 1.5rem;
+  color: #EB6864;
+  -webkit-text-stroke: 1.5px black;
 }
 .marginInput{
   margin: 0rem 0.7rem 0rem 0.7rem;
+}
+.icon{
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke: 1.5px black;
+}
+.container{
+  /* background-image: radial-gradient(circle, #f0baa7, #f6bf9a, #f5c78c, #ecd182, #dcdc7c);  padding-top: 2rem; */
+  padding-bottom: 2rem;
+}
+.title{
+  /* background-color: #ffff8f; */
+  padding: 1rem;
 }
