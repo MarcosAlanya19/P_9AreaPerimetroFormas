@@ -18,31 +18,37 @@ export interface areaPerimetro{
 
 export const forms: areaPerimetro[] = [
     {
+        // Info basica
         icon:'<i class="fa-solid fa-square form"></i>',
         title:'CUBO',
         placeholderArea:'Ingresa Lado',
         placeholderPerimetro:'Ingresa lado',
-        idArea:'area-cuadrado',
-        idPerimetro:'perimetro-cuadrado',
-        idInputArea:'lado-area',
-        idInputPerimetro:'lado-perimetro',
+        // Identificador
+        idArea:'collapse1',
+        idPerimetro:'collapse2',
+        // Operacion
         idFormArea:'form-area-cuadrado',
+        idInputArea:'input-cuadrado-area',
+        resultPrintArea:'result-area-cuadrado',
         idFormPerimetro:'form-perimetro-cuadrado',
-        resultPrintArea:'area-cuadrado',
-        resultPrintPerimetro:'perimetro-cuadrado',
+        idInputPerimetro:'input-cuadrado-perimetro',
+        resultPrintPerimetro:'result-perimetro-cuadrado',
     },
     {
+        // Info basica
         icon:'<i class="fa-solid fa-circle form"></i>',
         title:'ESFERA',
         placeholderArea:'Ingresa radio',
         placeholderPerimetro:'Ingresa radio',
-        idArea:'areaCirculo',
-        idPerimetro:'perimetroCirculo',
-        idInputArea:'string',
-        idInputPerimetro:'',
-        idFormArea:'string',
-        idFormPerimetro:'string',
-        resultPrintArea:'number',
-        resultPrintPerimetro:'number',
+        // Identificador
+        idArea:'collapse3',
+        idPerimetro:'collapse4',
+        // Operacion
+        idInputArea:'input-circulo-area',
+        idInputPerimetro:'input-circulo-perimetro',
+        idFormArea:'form-area-circulo',
+        idFormPerimetro:'form-perimetro-circulo',
+        resultPrintArea:'result-area-circulo',
+        resultPrintPerimetro:'result-perimetro-circulo',
     }
 ]
