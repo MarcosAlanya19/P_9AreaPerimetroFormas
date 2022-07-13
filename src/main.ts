@@ -103,7 +103,7 @@ formAreaCirculo.addEventListener('submit', e => {
 formPerimetroCirculo.addEventListener('submit', e => {
     e.preventDefault();
     const cuadrado = parseInt(radioCirculoPerimetro.value);
-    const perimetroResult = perimetroCuadrado(cuadrado);
+    const perimetroResult = perimetroCirculo(cuadrado);
     const result= document.querySelector<HTMLElement>('#result-perimetro-circulo')!;
     result.innerHTML = ` ${perimetroResult.toFixed(2)}`
 });
